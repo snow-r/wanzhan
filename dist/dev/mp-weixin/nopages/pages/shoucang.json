@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "top-bar": "/components/topBar",
+    "tabs": "/nopages/pages/components/tabss",
+    "tab-pane": "/nopages/pages/components/tabPane"
+  }
+}

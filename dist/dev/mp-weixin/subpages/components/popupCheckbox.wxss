@@ -1,0 +1,116 @@
+.top_box_popup.data-v-1322d363 {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #FFFFFF;
+  border-radius: 32rpx 32rpx 0rpx 0rpx;
+}
+.maxHeight-200.data-v-1322d363 {
+  max-height: 400rpx;
+}
+.width-14.data-v-1322d363 {
+  width: 28rpx;
+}
+.height-14.data-v-1322d363 {
+  height: 28rpx;
+}
+.absolute.data-v-1322d363 {
+  position: absolute;
+}
+.top-12.data-v-1322d363 {
+  top: 24rpx;
+}
+.left-16.data-v-1322d363 {
+  left: 32rpx;
+}
+.text-203040.data-v-1322d363 {
+  color: #203040;
+}
+.font-600.data-v-1322d363 {
+  font-weight: 600;
+}
+.fontsize-16.data-v-1322d363 {
+  font-size: 32rpx;
+}
+.bg-ffffff.data-v-1322d363 {
+  background-color: #fff;
+}
+.pt-8.data-v-1322d363 {
+  padding-top: 16rpx;
+}
+.mr-15.data-v-1322d363 {
+  margin-right: 30rpx;
+}
+.ml-16.data-v-1322d363 {
+  margin-left: 32rpx;
+}
+.height-48.data-v-1322d363 {
+  height: 96rpx;
+}
+.height-father.data-v-1322d363 {
+  height: 100%;
+}
+.flex.data-v-1322d363 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.pl-17.data-v-1322d363 {
+  padding-left: 34rpx;
+}
+.ptb-15.data-v-1322d363 {
+  padding: 30rpx 0;
+}
+.pr-10.data-v-1322d363 {
+  padding-right: 20rpx;
+}
+.border-b-1-EEEEEE.data-v-1322d363 {
+  border-bottom: 2rpx solid #eee;
+}
+.align-items-center.data-v-1322d363 {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.width-20.data-v-1322d363 {
+  width: 40rpx;
+}
+.height-20.data-v-1322d363 {
+  height: 40rpx;
+}
+.mt-8.data-v-1322d363 {
+  margin-top: 16rpx;
+}
+.ml-13.data-v-1322d363 {
+  margin-left: 26rpx;
+}
+.color-2D3033.data-v-1322d363 {
+  color: #2d3033;
+}
+.plr-16.data-v-1322d363 {
+  padding: 0 32rpx;
+}
+.pb-40.data-v-1322d363 {
+  padding-bottom: 80rpx;
+}
+.text-1E63A6.data-v-1322d363 {
+  color: #1e63a6;
+}
+.border-1-1E63A6.data-v-1322d363 {
+  border: 2rpx solid #1e63a6;
+}
+.p-12-68.data-v-1322d363 {
+  padding: 24rpx 136rpx;
+}
+.br-4.data-v-1322d363 {
+  border-radius: 8rpx;
+}
+.text-ffffff.data-v-1322d363 {
+  color: #fff;
+}
+.bg-1E63A6.data-v-1322d363 {
+  background-color: #1e63a6;
+}
+

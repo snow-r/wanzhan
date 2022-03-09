@@ -1,0 +1,172 @@
+.pageContainer.data-v-56b2d2ee {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+.pageContainer .rights.data-v-56b2d2ee {
+  width: 100%;
+}
+.pageContainer .rights image.data-v-56b2d2ee {
+  position: relative;
+  width: 100%;
+}
+.pageContainer .rights .posst.data-v-56b2d2ee {
+  position: absolute;
+  width: 80%;
+  height: 300rpx;
+  top: 80rpx;
+  left: 80rpx;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.pageContainer .rights .posst .no1.data-v-56b2d2ee {
+  font-size: 46rpx;
+  font-weight: bold;
+  color: #fff;
+}
+.pageContainer .rights .posst .no2.data-v-56b2d2ee {
+  padding-top: 80rpx;
+  font-size: 38rpx;
+  font-weight: bold;
+  color: #fff;
+}
+.pageContainer .centent.data-v-56b2d2ee {
+  margin-top: -90rpx;
+}
+.pageContainer .editaddress.data-v-56b2d2ee {
+  padding: 50rpx;
+}
+.pageContainer .editaddress .content.data-v-56b2d2ee {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 4rpx 20rpx 30rpx;
+  box-shadow: 0px 7px 44px 2px rgba(36, 77, 210, 0.15);
+}
+.pageContainer .editaddress .content .row.data-v-56b2d2ee {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  min-height: 120rpx;
+  border-bottom: solid 1rpx #e6e6e6;
+}
+.pageContainer .editaddress .content .row .nominal.data-v-56b2d2ee {
+  width: 28%;
+  line-height: 120rpx;
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #333;
+  padding-left: 30rpx;
+}
+.pageContainer .editaddress .content .row .input.data-v-56b2d2ee {
+  width: 74%;
+  margin-left: 20rpx;
+  padding-left: 10rpx;
+}
+.pageContainer .editaddress .content .row .input input.data-v-56b2d2ee {
+  height: 120rpx;
+  line-height: 90rpx;
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #666666;
+}
+.pageContainer .editaddress .content .row .input textarea.data-v-56b2d2ee {
+  width: 100%;
+  font-size: 26rpx;
+  color: #333;
+}
+.pageContainer .editaddress .content .textarea.data-v-56b2d2ee {
+  padding: 30rpx 0;
+}
+.pageContainer .selectcity.data-v-56b2d2ee {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #999;
+}
+.pageContainer .selectcity image.data-v-56b2d2ee {
+  width: 45rpx;
+  height: 45rpx;
+}
+.pageContainer .selectcity .selectcity_box.data-v-56b2d2ee {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 90rpx;
+  line-height: 90rpx;
+  width: 90%;
+}
+.pageContainer .selectcity .selectcity_box > view.data-v-56b2d2ee:nth-child(2) {
+  margin-left: 6rpx;
+  width: 22rpx;
+  height: 22rpx;
+}
+.pageContainer .selectcity .selectcity_box > view:nth-child(2) image.data-v-56b2d2ee {
+  width: 22rpx;
+  height: 22rpx;
+}
+.pageContainer .switch.data-v-56b2d2ee {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.pageContainer .switch .switch_box.data-v-56b2d2ee {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.pageContainer .switch .switch_box > view.data-v-56b2d2ee {
+  margin-top: 24rpx;
+  width: 80rpx;
+  margin-left: 20rpx;
+  height: 46rpx;
+  line-height: 46rpx;
+  text-align: center;
+  font-size: 26rpx;
+  font-weight: 500;
+  color: #18a45d;
+  background: #eaf8f1;
+  border: 1rpx solid #009944;
+  border-radius: 2rpx;
+}
+.pageContainer .switch .switch_box > view.on.data-v-56b2d2ee {
+  color: #fff;
+  background: #009944;
+  border: 1rpx solid #009944;
+  border-radius: 2rpx;
+}
+.pageContainer .save.data-v-56b2d2ee {
+  width: 100%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.pageContainer .save .btn.data-v-56b2d2ee {
+  width: 55%;
+  font-size: 32rpx;
+  color: #ffffff;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #0198FE;
+  border-radius: 50rpx;
+}
+

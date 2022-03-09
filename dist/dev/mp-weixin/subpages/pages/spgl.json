@@ -1,0 +1,7 @@
+{
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "top-bar": "/components/topBar",
+    "dialog": "/components/dialog"
+  }
+}

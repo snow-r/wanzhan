@@ -1,0 +1,125 @@
+.tabs.data-v-4e9e17e1 {
+  position: relative;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.tabs .active-switch.data-v-4e9e17e1 {
+  overflow: scroll;
+}
+.tabs .active-switch .switch-container.data-v-4e9e17e1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  z-index: 1000;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.tabs .active-switch .switch-container .focus-line.data-v-4e9e17e1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  width: 190rpx;
+  position: absolute;
+  z-index: 10;
+  bottom: 25rpx;
+  left: 20rpx;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 10rpx;
+}
+.tabs .active-switch .switch-container .focus-line .no11.data-v-4e9e17e1 {
+  width: 80rpx;
+  height: 15rpx;
+  position: absolute;
+  z-index: 10;
+  bottom: 0rpx;
+  left: 30rpx;
+  background: #DB0000;
+  border-bottom: 8rpx solid #DB0000;
+  border: 1rpx solid #000000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 10rpx;
+}
+.tabs .active-switch .switch-container .focus-line.fix.data-v-4e9e17e1 {
+  width: 108rpx;
+}
+.tabs .active-switch .switch-container .active-item.data-v-4e9e17e1 {
+  font-weight: bold;
+  font-size: 32rpx;
+  position: relative;
+  min-width: 80rpx;
+  width: 80rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 100rpx;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex ;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  border-bottom: 1rpx solid #fff;
+}
+.tabs .active-switch .switch-container .active-item.focus.data-v-4e9e17e1 {
+  background: #fff;
+  color: #1840da;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.tabs .active-switch .switch-container .active-item.fix.data-v-4e9e17e1 {
+  width: 250rpx;
+}
+.tabs .active-switch .switch-container .active-item .item.data-v-4e9e17e1 {
+  padding: 0 5rpx;
+  overflow: hidden;
+  font-size: 30rpx;
+  color: #333;
+}
+.tabs .tab-pane-view.data-v-4e9e17e1 {
+  overflow: hidden;
+  background-color: #f7f7f7;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.tabs .tab-pane-view .tab-pane-group.data-v-4e9e17e1 {
+  display: block;
+  white-space: nowrap;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+  overflow: visible;
+  will-change: transform,left,top;
+  min-height: 100rpx;
+  height: 100%;
+}
+.tabs .tab-pane-view .tab-pane-group .tab-pane-item.data-v-4e9e17e1 {
+  width: 100%;
+  min-height: 100rpx;
+  display: inline-block;
+  white-space: initial;
+  vertical-align: top;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  overflow: auto;
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "top-bar": "/components/topBar",
+    "tabs": "/subpages/components/tabss",
+    "tab-pane": "/subpages/components/tabPane"
+  }
+}

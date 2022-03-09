@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "tab-bar": "/components/tabBar",
+    "index-page": "/pages/components/Index",
+    "service": "/pages/components/servie",
+    "message": "/pages/components/message",
+    "mine": "/pages/components/mine",
+    "popup": "/pages/components/popup",
+    "youhui": "/pages/components/youhuiquan"
+  }
+}

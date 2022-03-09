@@ -1,0 +1,221 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index"
+		},
+    {
+			"path": "pages/index/mine"
+		},
+		{
+			"path": "pages/login/login"
+		},
+		{
+			"path": "pages/login/shouquan"
+		},
+		{
+			"path": "pages/pages/changeCity",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/pages/indexSearch",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/pages/addBank"
+		},
+		{
+			"path": "pages/pages/quanbao"
+		}
+	],
+	"subPackages":[
+		{
+			"root": "subpages",
+			"pages": [
+				{
+					"path": "pages/aboutMine",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/chquan",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/gxtehui",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/addShop",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/addQuan",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/signIn",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/swhz",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/shopDetail",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/tuiguang",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/shopTop",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/company",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/spgl",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/bangding",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/addXm",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/myShare",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/payNumber",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/paySuccess",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/quanCode",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/orderList",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/changeQuan",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				}
+				
+				
+			]
+		},
+		{
+			"root":"nopages",
+			"pages":[
+				{
+					"path": "pages/tixian"
+				},
+				{
+					"path": "pages/pinglun"
+				},
+				{
+					"path": "pages/shoucang"
+				},
+				{
+					"path": "pages/moneyBox"
+				},
+				{
+					"path": "pages/comment"
+				},
+				{
+					"path": "pages/shopOrder"
+				},
+				{
+					"path": "pages/spQuanbao"
+				},
+				{
+					"path": "pages/caipinGl"
+				},
+				{
+					"path": "pages/changeCaipin"
+				},
+				{
+					"path": "pages/shopMeiyan"
+				},
+				{
+					"path": "pages/payNumbers"
+				},
+				{
+					"path": "pages/paySuccesss"
+				},
+				{
+					"path": "pages/heyanSaoma"
+				},
+				{
+					"path": "pages/msgCompany"
+				}
+				
+				
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "代金券",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	}
+}

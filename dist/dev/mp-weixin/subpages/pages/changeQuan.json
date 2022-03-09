@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "top-bar": "/components/topBar",
+    "date-picker": "/subpages/components/datePicker",
+    "popup-checkbox": "/subpages/components/popupCheckbox"
+  }
+}

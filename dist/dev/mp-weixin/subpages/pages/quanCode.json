@@ -1,0 +1,8 @@
+{
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "top-bar": "/components/topBar",
+    "tki-barcode": "/subpages/components/code/tki-barcode/tki-barcode",
+    "tki-qrcode": "/subpages/components/code/tki-qrcode/tki-qrcode"
+  }
+}
