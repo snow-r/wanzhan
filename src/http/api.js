@@ -1,6 +1,52 @@
 // 接口
 import api from "./config";
 const allApi = {
+  snow:{
+    /**
+     * 获取邀请二维码
+     */
+    produceInviteCode:(params) =>{
+      return api.get('wechat/miniapp/shareCode.jpg',params)
+    },
+
+    /**
+     * 开通邀请
+    */
+    openInviteCode:() =>{
+      return api.post('app/user/enableInvite')
+    },
+    /*
+    * 查询消息列表
+    */
+    getMessageList:() =>{
+      return api.get('app/message/list')
+    },
+    
+    /*
+    * 更新消息阅读状态
+    */
+    changeMessage:(id) => {
+      return api.post(`app/message/hasRead/${id}`)
+    },
+    /*
+    * 分享代金券列表
+    */
+    shareVoucherList:(city) => {
+      return api.get(`app/column/sharevoucher/${city}`)
+    },
+    /*
+    * 提现
+    */
+    withdrawal:(params) => {
+      return api.post('app/user/addCashout/',params)
+    },
+    /*
+    * 上架申请
+    */
+    enableShop:(id) => {
+      return api.post(`app/shop/enableShop/${id}`)
+    },
+  },
   /**
    * 用户授权登录
    */

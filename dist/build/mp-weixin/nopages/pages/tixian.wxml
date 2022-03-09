@@ -1,0 +1,1 @@
+<view class="data-v-3f82ad95"><top-bar vue-id="3762e5e4-1" background="#fff" back="{{true}}" barTitle="提现" class="data-v-3f82ad95" bind:__l="__l"></top-bar><view class="{{['data-v-3f82ad95',isIpx?'xPage':'normalPage']}}" style="{{('padding-top:'+navHeight+'px')}}"><scroll-view class="pageContainer data-v-3f82ad95" scroll-y="{{true}}"></scroll-view></view></view>

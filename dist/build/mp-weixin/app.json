@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/mine",
+    "pages/login/login",
+    "pages/login/shouquan",
+    "pages/pages/changeCity",
+    "pages/pages/indexSearch",
+    "pages/pages/addBank",
+    "pages/pages/quanbao"
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        "pages/aboutMine",
+        "pages/chquan",
+        "pages/gxtehui",
+        "pages/addShop",
+        "pages/addQuan",
+        "pages/signIn",
+        "pages/swhz",
+        "pages/shopDetail",
+        "pages/tuiguang",
+        "pages/shopTop",
+        "pages/company",
+        "pages/spgl",
+        "pages/bangding",
+        "pages/addXm",
+        "pages/myShare",
+        "pages/payNumber",
+        "pages/paySuccess",
+        "pages/quanCode",
+        "pages/orderList",
+        "pages/changeQuan"
+      ]
+    },
+    {
+      "root": "nopages",
+      "pages": [
+        "pages/tixian",
+        "pages/pinglun",
+        "pages/shoucang",
+        "pages/moneyBox",
+        "pages/comment",
+        "pages/shopOrder",
+        "pages/spQuanbao",
+        "pages/caipinGl",
+        "pages/changeCaipin",
+        "pages/shopMeiyan",
+        "pages/payNumbers",
+        "pages/paySuccesss",
+        "pages/heyanSaoma",
+        "pages/msgCompany"
+      ]
+    },
+    {
+      "root": "snow",
+      "pages": [
+        "pages/voucherShare",
+        "pages/invite",
+        "pages/message",
+        "pages/store_msg",
+        "pages/interact_msg",
+        "pages/notify_msg",
+        "pages/aboutMine",
+        "pages/feedback",
+        "pages/webView"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "代金券",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}

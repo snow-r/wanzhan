@@ -74,7 +74,7 @@
             <text>切换</text>
           </view>
         </view>
-        <view class="content" v-if="shopList.length > 0" @click="changeShop()">
+        <view class="content" v-if="shopList.length > 0">
           <view class="contLeft">
             <image v-if="/^http/.test(shopLists.detail.imgUrl)"  :src="shopLists.detail.imgUrl" mode="widthFix"></image>
             <image v-else  :src="IMG_BEFORE_URL+shopLists.detail.imgUrl" mode="widthFix"></image>
@@ -91,7 +91,16 @@
             </view>
             <view class="right3">{{ shopLists.detail.address }}</view>
             <view class="right4">
-              <image
+              <!-- <image
+                src="http://www.mingtongxa.com/wanzhuan/spglgai.png"
+                mode="widthFix"
+              ></image> -->
+              <image  @click="didUp()"
+                src="http://www.mingtongxa.com/wanzhuan/spglgai.png"
+                mode="widthFix"
+                style="padding-right:10px"
+              ></image>
+              <image  @click="changeShop()"
                 src="http://www.mingtongxa.com/wanzhuan/spglgai.png"
                 mode="widthFix"
               ></image>
@@ -343,6 +352,20 @@ export default {
         }
       });
     },
+    /// 点击上架
+    didUp(shop){
+      //   console.log('userId --- ',uni.getStorageSync("userId"),);
+      //   this.enableShop
+      //   let sendData = {
+      //   userId: uni.getStorageSync("userId"),
+      //   amount: this.confirmPop, // 金额
+      // };
+
+      console.log('shop === ',shop);
+      this.$api.snow.enableShop(uni.getStorageSync("userId")).then((res) => {
+        console.log('上架结果 -- ',res)
+      })
+    }
   },
 };
 </script>

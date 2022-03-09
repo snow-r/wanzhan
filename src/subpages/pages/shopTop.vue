@@ -144,7 +144,8 @@
               <block><view class="tocolX">周边</view></block>
             </scroll-view>
           </view>
-          <view class="orderPay">
+          <!-- @改@ -->
+          <!-- <view class="orderPay">
             <view class="payLeft">
               <view class="leftno1">
                 <image
@@ -159,7 +160,7 @@
               <view class="right1">买单</view>
               <view class="right2">半年售<text>100</text></view>
             </view>
-          </view>
+          </view> -->
           <view class="orderQuan" v-if="couponList.length > 0">
             <image
               src="http://www.mingtongxa.com/wanzhuan/shopQuan.png"

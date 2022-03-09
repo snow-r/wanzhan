@@ -11,7 +11,7 @@
       :fontColor="'rgb(250, 250, 250)'"
       barTitle="百变零工"/> -->
 
-    <scroll-view style="height:100%">
+    <scroll-view style="height: 100%">
       <view
         class="container"
         :style="{
@@ -26,11 +26,11 @@
             class="header"
             :style="
               'padding-top:' +
-                topHeight +
-                'px;height:' +
-                navHeight +
-                'px;background:' +
-                opacc
+              topHeight +
+              'px;height:' +
+              navHeight +
+              'px;background:' +
+              opacc
             "
           >
             <view class="headerLeft">
@@ -39,10 +39,10 @@
                   src="@/static/images/sanjiao.png"
                   mode="widthFix"
                 ></image>
-                <text v-if="userCity" style="font-size:28upx">{{
+                <text v-if="userCity" style="font-size: 28upx">{{
                   userCity
                 }}</text>
-                <text v-else style="font-size:26upx">手动定位</text>
+                <text v-else style="font-size: 26upx">手动定位</text>
               </view>
             </view>
             <view class="headerRight">
@@ -134,7 +134,7 @@
                     src="http://www.mingtongxa.com/wanzhuan/hudongBtn.png"
                     mode="widthFix"
                   ></image
-                  ><text style="padding-left:8upx;color:#E10101">{{
+                  ><text style="padding-left: 8upx; color: #e10101">{{
                     item.voucherName
                   }}</text
                   ><text>代金券</text>
@@ -149,61 +149,63 @@
         </scroll-view>
         <!-- </view> -->
       </view>
-      <view class="staContent">
-        <image
-          src="http://www.mingtongxa.com/wanzhuan/huodongbg.png"
-          mode="widthFix"
-        ></image>
-        <view class="titlecontent">
-          <view class="titleLeft">
-            <image
-              src="@/static/images/xiaohongbao.png"
-              mode="widthFix"
-            ></image>
-            <text>代金券分享</text>
+      <navigator url="/snow/pages/voucherShare">
+        <view class="staContent">
+          <image
+            src="http://www.mingtongxa.com/wanzhuan/huodongbg.png"
+            mode="widthFix"
+          ></image>
+          <view class="titlecontent">
+            <view class="titleLeft">
+              <image
+                src="@/static/images/xiaohongbao.png"
+                mode="widthFix"
+              ></image>
+              <text>代金券分享</text>
+            </view>
+            <view class="titleRight"> 分享一次一元钱 </view>
           </view>
-          <view class="titleRight">
-            分享一次一元钱
-          </view>
-        </view>
-        <view class="titleBg">
-          <view class="titleImg">
-            <view class="posMoney">
-              <view class="moneyLeft">
-                <view
-                  ><text>{{ shareObj.price }}</text
-                  >元代 <text>{{ shareObj.amount }}</text
-                  >元券</view
-                >
-                <view class="nopr">
-                  <image
-                    src="@/static/images/xiaohongbao.png"
-                    mode="widthFix"
-                  ></image>
-                  <text>成都火锅店高新店</text>
+          <view class="titleBg">
+            <view class="titleImg">
+              <view class="posMoney">
+                <view class="moneyLeft">
+                  <view
+                    ><text>{{ shareObj.price }}</text
+                    >元代 <text>{{ shareObj.amount }}</text
+                    >元券</view
+                  >
+                  <view class="nopr">
+                    <image
+                      src="@/static/images/xiaohongbao.png"
+                      mode="widthFix"
+                    ></image>
+                    <text>成都火锅店高新店</text>
+                  </view>
+                </view>
+                <view class="moneyRight">
+                  <button open-type="share">
+                    <image
+                      src="http://www.mingtongxa.com/wanzhuan/zhuanfa.png"
+                      mode="widthFix"
+                    ></image>
+                  </button>
                 </view>
               </view>
-              <view class="moneyRight">
-                <button open-type="share">
-                  <image
-                  src="http://www.mingtongxa.com/wanzhuan/zhuanfa.png"
-                  mode="widthFix"
-                ></image>
-                </button>
-                
-              </view>
+              <image
+                src="http://www.mingtongxa.com/wanzhuan/huodong1bg.png"
+                mode="widthFix"
+              ></image>
             </view>
-            <image
-              src="http://www.mingtongxa.com/wanzhuan/huodong1bg.png"
-              mode="widthFix"
-            ></image>
-          </view>
-          <view class="moreAll">
-            <view>更多</view>
-            <image src="@/static/images/totoright.png" mode="widthFix"></image>
+            <view class="moreAll">
+              <view>更多</view>
+              <image
+                src="@/static/images/totoright.png"
+                mode="widthFix"
+              ></image>
+            </view>
           </view>
         </view>
-      </view>
+      </navigator>
       <view
         :class="flags ? 'moreTop fixed' : 'moreTop'"
         :style="{
@@ -215,7 +217,7 @@
             ><view
               :class="change_index == -1 ? 'tocolX active' : 'tocolX'"
               @click="changeIndex"
-              style="padding-left:0"
+              style="padding-left: 0"
               >离我最近</view
             ></block
           >
@@ -230,10 +232,7 @@
           >
         </scroll-view>
       </view>
-      <view
-        class="more"
-        v-if="change_index != -1"
-      >
+      <view class="more" v-if="change_index != -1">
         <view
           class="txtCont"
           v-for="(nav, tips) in shopOrder.itemList"
@@ -255,7 +254,7 @@
             </view>
             <view class="contet">
               <view class="no1">罗马街·</view>
-              <view class="no1">{{nav.name}}</view>
+              <view class="no1">{{ nav.name }}</view>
               <view class="no2">
                 <view class="noleft">
                   <image
@@ -272,7 +271,7 @@
                   mode="widthFix"
                 ></image>
                 <text
-                  >最热 北大街沿线特色小吃热榜第<text style="color:#E10101"
+                  >最热 北大街沿线特色小吃热榜第<text style="color: #e10101"
                     >3</text
                   >名</text
                 >
@@ -323,8 +322,8 @@
               <view class="biaoqian">全店通用</view>
             </view>
             <view class="contet">
-              <view class="no1">{{nav.cates}}</view>
-              <view class="no1">{{nav.name}}</view>
+              <view class="no1">{{ nav.cates }}</view>
+              <view class="no1">{{ nav.name }}</view>
               <view class="no2">
                 <view class="noleft">
                   <image
@@ -341,7 +340,7 @@
                   mode="widthFix"
                 ></image>
                 <text
-                  >最热 北大街沿线特色小吃热榜第<text style="color:#E10101"
+                  >最热 北大街沿线特色小吃热榜第<text style="color: #e10101"
                     >3</text
                   >名</text
                 >
@@ -404,15 +403,15 @@ export default {
     flags: {
       default: false,
     },
-    foodLists:{
+    foodLists: {
       default: null,
-    } ,
-    newLists:{
+    },
+    newLists: {
       default: null,
-    } ,
-    nearLists:{
+    },
+    nearLists: {
       default: null,
-    } ,
+    },
     // bannerList:{
     //   default:[]
     // }
@@ -433,9 +432,9 @@ export default {
       flag: false,
       IMG_BEFORE_URL,
       shopOrder: [],
-      foodLists:[],
-      newLists:[],
-      nearLists:[],
+      foodLists: [],
+      newLists: [],
+      nearLists: [],
       totoList: [
         {
           name: "jij",
@@ -488,14 +487,20 @@ export default {
     // this.getCityOrder();
     // this.$comfun.getUserCity(() => {});
   },
-  onShareAppMessage(res){
-    if(res.from == 'button'){
+  onShareAppMessage(res) {
+    if (res.from == "button") {
     }
-		return {
-				title: `好友送你1张80元代金券`,
-				path: '/pages/index/index?myId='+userId+'&composId='+comsId+'&ids='+id,
-				imageUrl: "http://www.mingtongxa.com/xcx/shareOmg.png"
-			}
+    return {
+      title: `好友送你1张80元代金券`,
+      path:
+        "/pages/index/index?myId=" +
+        userId +
+        "&composId=" +
+        comsId +
+        "&ids=" +
+        id,
+      imageUrl: "http://www.mingtongxa.com/xcx/shareOmg.png",
+    };
   },
   methods: {
     isLogin() {},
@@ -1226,13 +1231,13 @@ export default {
           display: flex;
           justify-content: center;
           align-items: center;
-          button{
+          button {
             width: 100%;
             height: 100%;
             background: transparent;
             display: flex;
-          justify-content: center;
-          align-items: center;
+            justify-content: center;
+            align-items: center;
           }
           image {
             width: 59upx !important;

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/tabBar"],{"2f3b":function(n,t,o){"use strict";o.r(t);var a=o("f40f"),e=o.n(a);for(var u in a)["default"].indexOf(u)<0&&function(n){o.d(t,n,(function(){return a[n]}))}(u);t["default"]=e.a},"4fc5":function(n,t,o){"use strict";var a;o.d(t,"b",(function(){return e})),o.d(t,"c",(function(){return u})),o.d(t,"a",(function(){return a}));var e=function(){var n=this,t=n.$createElement;n._self._c},u=[]},5965:function(n,t,o){},"7eac":function(n,t,o){"use strict";o.r(t);var a=o("4fc5"),e=o("2f3b");for(var u in e)["default"].indexOf(u)<0&&function(n){o.d(t,n,(function(){return e[n]}))}(u);o("e8f3");var c,f=o("f0c5"),i=Object(f["a"])(e["default"],a["b"],a["c"],!1,null,"8e2e2f8e",null,!1,a["a"],c);t["default"]=i.exports},e8f3:function(n,t,o){"use strict";var a=o("5965"),e=o.n(a);e.a},f40f:function(n,t,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var a={props:{current:{default:0},msgNum:{default:0}},data:function(){return{currentBgColor:"#fff",tabList:[{name:"美食",selectIcon:"http://www.mingtongxa.com/wanzhuan/shouyeon.png",icon:"http://www.mingtongxa.com/wanzhuan/shouyeoff.png"},{name:"休闲",selectIcon:"http://www.mingtongxa.com/wanzhuan/xiuxianon.png",icon:"http://www.mingtongxa.com/wanzhuan/xiuxianoff.png"},{name:"购物",selectIcon:"http://www.mingtongxa.com/wanzhuan/gouwuon.png",icon:"http://www.mingtongxa.com/wanzhuan/gouwuoff.png"},{name:"我的",selectIcon:"http://www.mingtongxa.com/wanzhuan/mingon.png",icon:"http://www.mingtongxa.com/wanzhuan/mineoff.png"}]}},mounted:function(){},computed:{isIpx:function(){return this.$isIpx}},methods:{tabChange:function(n,t){n.background||(n.background="#fff"),this.currentBgColor=n.background,this.$emit("tabChange",t)}}};t.default=a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/tabBar-create-component',
+    {
+        'components/tabBar-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("7eac"))
+        })
+    },
+    [['components/tabBar-create-component']]
+]);

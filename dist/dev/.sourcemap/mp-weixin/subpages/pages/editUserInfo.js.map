@@ -1,1 +1,0 @@
-{"version":3,"sources":["uni-app:///src/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;;;AAAA;;AACA;;AACA;;;;AACAA,UAAU,CAACC,qBAAD,CAAV,C","file":"subpages/pages/editUserInfo.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './subpages/pages/editUserInfo.vue'\ncreatePage(Page)"],"sourceRoot":""}

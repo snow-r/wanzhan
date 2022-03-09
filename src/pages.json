@@ -3,7 +3,7 @@
 		{
 			"path": "pages/index/index"
 		},
-    {
+		{
 			"path": "pages/index/mine"
 		},
 		{
@@ -33,7 +33,7 @@
 			"path": "pages/pages/quanbao"
 		}
 	],
-	"subPackages":[
+	"subPackages": [
 		{
 			"root": "subpages",
 			"pages": [
@@ -157,13 +157,11 @@
 						"navigationBarTextStyle": "black"
 					}
 				}
-				
-				
 			]
 		},
 		{
-			"root":"nopages",
-			"pages":[
+			"root": "nopages",
+			"pages": [
 				{
 					"path": "pages/tixian"
 				},
@@ -206,8 +204,74 @@
 				{
 					"path": "pages/msgCompany"
 				}
-				
-				
+			]
+		},
+		{
+			"root": "snow",
+			"pages": [
+				{
+					// 代金券分享
+					"path": "pages/voucherShare",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					// 邀请分享
+					"path": "pages/invite",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					// 消息
+					"path": "pages/message",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					// 店铺消息
+					"path": "pages/store_msg",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					// 互动消息
+					"path": "pages/interact_msg",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					// 消息通知
+					"path": "pages/notify_msg",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					// 关于我们
+					"path": "pages/aboutMine",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					// 意见反馈
+					"path": "pages/feedback",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					// web h5
+					"path": "pages/webView",
+					"style": {
+						"navigationBarTextStyle": "black"
+					}
+				}
 			]
 		}
 	],

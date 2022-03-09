@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "item": "/snow/pages/store_msg_item"
+  }
+}

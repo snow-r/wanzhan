@@ -27,11 +27,13 @@
             src="http://www.mingtongxa.com/wanzhuan/headerBg.png"
             mode="widthFix"
           ></image>
-          <image
-            class="xiaoxi"
-            src="http://www.mingtongxa.com/wanzhuan/minexiaoxi.png"
-            mode="widthFix"
-          ></image>
+          <navigator url="/snow/pages/message" hover-class="navigator-hover">
+            <image
+              class="xiaoxi"
+              src="http://www.mingtongxa.com/wanzhuan/minexiaoxi.png"
+              mode="widthFix"
+            ></image>
+          </navigator>
           <view class="header">
             <view class="headerLeft" v-if="!isLogin">
               <image :src="avatar" mode="widthFix"></image>
@@ -52,16 +54,28 @@
               <image v-if="authStatus==2" src="@/static/images/geren.png" mode="widthFix"></image>
               <image v-if="authStatus==2 && companyId!=null" src="@/static/images/qiye.png" mode="widthFix"></image>
             </view> -->
-              <view class="no2" v-if="shopList.length>0" @click="gotoBang()">{{shopList[0].name}}</view>
-              <view v-else style="color:#ccc;padding-top:20rpx" @click="gotoBang()">点此绑定商铺信息</view>
+              <view
+                class="no2"
+                v-if="shopList.length > 0"
+                @click="gotoBang()"
+                >{{ shopList[0].name }}</view
+              >
+              <view
+                v-else
+                style="color: #ccc; padding-top: 20rpx"
+                @click="gotoBang()"
+                >点此绑定商铺信息</view
+              >
             </view>
             <view class="headerRight" v-else @click="gotoLogin">
               <view class="no1">
-                <view class="no1View" style="font-weight:bold;font-size:34upx"
+                <view
+                  class="no1View"
+                  style="font-weight: bold; font-size: 34upx"
                   >点此进行登录</view
                 >
               </view>
-              <view class="no2" style="font-size:28upx"
+              <view class="no2" style="font-size: 28upx"
                 >完成登录，享受更多服务</view
               >
             </view>
@@ -93,73 +107,104 @@
         <view class="contentOrder">
           <view class="orderItem" @click="gotoOrder()">
             <image
-                src="http://www.mingtongxa.com/wanzhuan/mineno1.png"
-                mode="widthFix"
-              ></image>
-              <text>订单</text>
+              src="http://www.mingtongxa.com/wanzhuan/mineno1.png"
+              mode="widthFix"
+            ></image>
+            <text>订单</text>
           </view>
           <view class="orderItem">
             <image
-                src="http://www.mingtongxa.com/wanzhuan/mineno2.png"
-                mode="widthFix"
-              ></image>
-              <text>积分</text>
+              src="http://www.mingtongxa.com/wanzhuan/mineno2.png"
+              mode="widthFix"
+            ></image>
+            <text>积分</text>
           </view>
           <view class="orderItem" @click="qianbao()">
             <image
-                src="http://www.mingtongxa.com/wanzhuan/mineno3.png"
-                mode="widthFix"
-              ></image>
-              <text>钱包</text>
+              src="http://www.mingtongxa.com/wanzhuan/mineno3.png"
+              mode="widthFix"
+            ></image>
+            <text>钱包</text>
           </view>
           <view class="orderItem" @click="shoucang()">
             <image
-                src="http://www.mingtongxa.com/wanzhuan/mineno4.png"
-                mode="widthFix"
-              ></image>
-              <text>收藏</text>
+              src="http://www.mingtongxa.com/wanzhuan/mineno4.png"
+              mode="widthFix"
+            ></image>
+            <text>收藏</text>
           </view>
         </view>
         <view class="function">
-          <view class="func1" @click="pageTo(1)" style="margin-top:20upx">
-            
+          <view class="func1" @click="pageTo(1)" style="margin-top: 20upx">
             <view class="func1Header">
-              <image src="http://www.mingtongxa.com/wanzhuan/tuiguang.png" mode="widthFix"></image>
+              <image
+                src="http://www.mingtongxa.com/wanzhuan/tuiguang.png"
+                mode="widthFix"
+              ></image>
               <view>推广专属</view>
             </view>
-            <image class="toright" src="http://www.mingtongxa.com/wanzhuan/mingToright.png" mode="widthFix"></image>
+            <image
+              class="toright"
+              src="http://www.mingtongxa.com/wanzhuan/mingToright.png"
+              mode="widthFix"
+            ></image>
           </view>
           <view class="func1" @click="pageTo(2)">
-            
             <view class="func1Header">
-              <image src="http://www.mingtongxa.com/wanzhuan/shangwu.png" mode="widthFix"></image>
+              <image
+                src="http://www.mingtongxa.com/wanzhuan/shangwu.png"
+                mode="widthFix"
+              ></image>
               <view>商务合作</view>
             </view>
-            <image class="toright" src="http://www.mingtongxa.com/wanzhuan/mingToright.png" mode="widthFix"></image>
+            <image
+              class="toright"
+              src="http://www.mingtongxa.com/wanzhuan/mingToright.png"
+              mode="widthFix"
+            ></image>
           </view>
           <!-- <view class="func1" @click="pageTo(3)" v-if="shopList.length>0"> -->
-            <view class="func1" @click="pageTo(3)">
+          <view class="func1" @click="pageTo(3)">
             <view class="func1Header">
-              <image src="http://www.mingtongxa.com/wanzhuan/shangpu.png" mode="widthFix"></image>
+              <image
+                src="http://www.mingtongxa.com/wanzhuan/shangpu.png"
+                mode="widthFix"
+              ></image>
               <view>商铺管理</view>
             </view>
-            <image class="toright" src="http://www.mingtongxa.com/wanzhuan/mingToright.png" mode="widthFix"></image>
+            <image
+              class="toright"
+              src="http://www.mingtongxa.com/wanzhuan/mingToright.png"
+              mode="widthFix"
+            ></image>
           </view>
           <view class="func1" @click="pageTo(4)">
-            
             <view class="func1Header">
-              <image src="http://www.mingtongxa.com/wanzhuan/lianxi.png" mode="widthFix"></image>
+              <image
+                src="http://www.mingtongxa.com/wanzhuan/lianxi.png"
+                mode="widthFix"
+              ></image>
               <view>联系客服</view>
             </view>
-            <image class="toright" src="http://www.mingtongxa.com/wanzhuan/mingToright.png" mode="widthFix"></image>
+            <image
+              class="toright"
+              src="http://www.mingtongxa.com/wanzhuan/mingToright.png"
+              mode="widthFix"
+            ></image>
           </view>
           <view class="func1" @click="pageTo(5)">
-            
             <view class="func1Header">
-              <image src="http://www.mingtongxa.com/wanzhuan/yaoqing.png" mode="widthFix"></image>
+              <image
+                src="http://www.mingtongxa.com/wanzhuan/yaoqing.png"
+                mode="widthFix"
+              ></image>
               <view>邀请分享</view>
             </view>
-            <image class="toright" src="http://www.mingtongxa.com/wanzhuan/mingToright.png" mode="widthFix"></image>
+            <image
+              class="toright"
+              src="http://www.mingtongxa.com/wanzhuan/mingToright.png"
+              mode="widthFix"
+            ></image>
           </view>
         </view>
       </scroll-view>
@@ -185,7 +230,7 @@ export default {
       authStatus: 0,
       objExpEn: false,
       companyId: null,
-      shopList:[]
+      shopList: [],
     };
   },
   watch: {},
@@ -210,7 +255,7 @@ export default {
         url: "/pages/login/login",
       });
     },
-    gotoOrder(){
+    gotoOrder() {
       uni.navigateTo({
         url: "/subpages/pages/orderList",
       });
@@ -220,11 +265,10 @@ export default {
         url: "/pages/pages/payOrder",
       });
     },
-    gotoBang(){
+    gotoBang() {
       uni.navigateTo({
         url: "/subpages/pages/bangding",
       });
-      
     },
     gotoMyOrder(id) {
       this.$comfun.userLogin(() => {
@@ -233,10 +277,10 @@ export default {
         });
       });
     },
-    shoucang(){
+    shoucang() {
       uni.navigateTo({ url: "/nopages/pages/shoucang" });
     },
-    qianbao(){
+    qianbao() {
       uni.navigateTo({ url: "/nopages/pages/moneyBox" });
     },
     kaifapiao() {
@@ -287,39 +331,32 @@ export default {
         // } else {
         //   this.avatar = IMG_BEFORE_URL + res.data.avatar;
         // }
-        this.shopList = res.data.shopList
+        this.shopList = res.data.shopList;
         this.nickName = res.data.nickName;
       });
     },
     pageTo(index) {
       if (index == 1) {
         uni.navigateTo({
-          url:'/subpages/pages/tuiguang'
-        })
-        
-      }else if (index ==2) {
+          url: "/subpages/pages/tuiguang",
+        });
+      } else if (index == 2) {
         uni.navigateTo({
-          url:'/subpages/pages/swhz'
-        })
-      }
-       else if (index == 3) {
-         
-         uni.navigateTo({
-          url:'/subpages/pages/spgl'
-        })
+          url: "/subpages/pages/swhz",
+        });
+      } else if (index == 3) {
+        uni.navigateTo({
+          url: "/subpages/pages/spgl",
+        });
       } else if (index == 4) {
-        uni.showToast({
-          title: '敬请期待',
-          icon: 'none',
-          mask: true
-        })
+       uni.navigateTo({
+          url: "/snow/pages/aboutMine",
+        });
       } else if (index == 5) {
-        uni.showToast({
-          title: '敬请期待',
-          icon: 'none',
-          mask: true
-        })
-      } 
+        uni.navigateTo({
+          url: "/snow/pages/invite",
+        });
+      }
     },
     gotoChangeMsg(url) {
       uni.navigateTo({
@@ -493,7 +530,7 @@ export default {
           height: 50upx;
           display: flex;
           align-items: center;
-          .dengji{
+          .dengji {
             border: 1upx solid #363636;
             border-radius: 10upx;
             padding: 5upx 10upx;
@@ -516,7 +553,7 @@ export default {
         }
       }
     }
-    .headBtn{
+    .headBtn {
       width: 98%;
       margin: 0 1%;
       position: absolute;
@@ -526,7 +563,7 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
-      .contBtn{
+      .contBtn {
         width: 33%;
         height: 100%;
         display: flex;
@@ -535,33 +572,33 @@ export default {
         font-size: 28upx;
         color: #000;
         white-space: nowrap;
-        image{
+        image {
           position: static;
           width: 60upx !important;
           height: 60upx !important;
         }
-        text{
+        text {
           padding-left: 10upx;
         }
       }
     }
   }
-  .contentOrder{
+  .contentOrder {
     width: 100%;
     height: 200upx;
     display: flex;
     align-items: center;
     justify-content: center;
-    .orderItem{
+    .orderItem {
       width: 25%;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      image{
+      image {
         width: 100upx;
       }
-      text{
+      text {
         font-size: 32upx;
         color: #000;
         padding-top: 10upx;
@@ -760,12 +797,12 @@ export default {
       align-items: center;
       font-size: 28upx;
       color: #000000;
-      .toright{
+      .toright {
         width: 22upx !important;
         height: 45upx !important;
         margin-right: 30upx;
       }
-      
+
       .func1Header {
         display: flex;
         align-items: center;
